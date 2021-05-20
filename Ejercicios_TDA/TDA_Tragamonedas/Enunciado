@@ -1,0 +1,12 @@
+TDAS COMPUESTOS
+1.13) Un Tragamonedas está compuesto por tres tambores. CadaTambor, cuando gira, se detiene en un número entre 1 y 8 inclusive. 
+ElTragamonedas otorga un premio cuando los tres tambores se detienen en lamisma posición. Modelar ambas clases:
+
+- Interfaz de Tambor:
+•girar (combinando la función rand, de la librería cstdlib, con módulo se consigue un número aleatorio en el rango que se necesite)
+•obtenerPosicion
+
+- Interfaz de Tragamonedas:
+•determinarPremio (un entero positivo)
+•sortear (gira los tres tambores)
+•otorgarPremio (booleana)
