@@ -1,0 +1,36 @@
+Implementar la clase Alarma y la clase Sensor con la siguiente interfaz.
+Una Alarma cuenta con un Sensor de movimiento, un Sensor de contacto y un Sensor de sonido.
+
+class Sensor{
+    
+    /* post: sensor  apagado.*/
+    Sensor ();
+    
+    /* post: enciende  el  sensor.*/
+    void  encender ();
+    
+    /* post: apaga el  sensor.*/
+    void  apagar ();
+    
+    /* post: devuelve  si el  sensor  ha sido  activado acausa  de algun  evento.*/
+    boolean  activado ();
+    
+    /*post: activa  el  sensor.*/
+    void  activar ();
+};
+---------------------------------------------
+class Alarma{
+    
+    /*pre: codigoSeguridad  es un  entero  positivo
+    * post: alarma  apagada  con el  código  de  seguridad  indicado.
+    */Alarma(int  codigoSeguridad );
+    
+    /*post: enciende  la  alarma.*/
+    void  encender ();
+    
+    /*post: si  codigoSeguridad  es correcto , apaga la  alarma.*/
+    void  apagar(int  codigoSeguridad );
+    
+    /*post: devuelve  si  alguno  de los  sensores  está  activado.*/
+    boolean  activada ();
+};
