@@ -7,18 +7,18 @@ using namespace std;
 
 int main(){
 
-	CajaDeAhorro ahorros("Lara", "Galvan", 41582474);
+	CajaDeAhorro ahorros("Juan", "Perez", 41528744);
 	ahorros.obtener_datos();
 
 
 	/*
-	CajaDeAhorro nuevo("Lara", "Galvan", 41582474, 12000);
+	CajaDeAhorro nuevo("Juan", "Perez", 41528744, 12000);
 	nuevo.obtener_datos();
 	nuevo.depositar(5000);
 	nuevo.obtener_datos();
 	*/
 	/*
-	CajaDeAhorro ahorros("Lara");
+	CajaDeAhorro ahorros("Juan");
 	string titular_cuenta = ahorros.obtener_titular();
 	cout << "La titular de la cuenta es: " << titular_cuenta << endl;
 	int saldo_actual = ahorros.consultar_saldo();
