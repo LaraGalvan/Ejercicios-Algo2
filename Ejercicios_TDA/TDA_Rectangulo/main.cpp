@@ -14,13 +14,6 @@ int main(){
 	int area = datos.obtener_area();
 	cout << "El perimetro es: " << perimetro << endl;
 	cout << "El area es: " << area << endl;
-	/*
-	datos.modificar_valores(4,5);
-	int base_nueva = datos.obtener_valor_base();
-	int altura_nueva = datos.obtener_valor_altura();
-	cout << "Nueva base: " << base_nueva << endl;
-	cout << "Nueva altura: " << altura_nueva << endl;
-	*/
 
 
 	return 0;
