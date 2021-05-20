@@ -1,2 +1,2 @@
-1.4) Implementar la clase Rectangulo, con atributos base y alturay los métodos para modificar y obtener sus valores. 
-Además, deben imple-mentar métodos para obtener el perímetro y el área.
+1.4) Implementar la clase Rectangulo, con atributos base y altura y con los métodos para modificar y obtener sus valores. 
+Además, deben implementar métodos para obtener el perímetro y el área.
