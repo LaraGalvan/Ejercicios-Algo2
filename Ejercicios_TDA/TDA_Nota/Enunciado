@@ -1,0 +1,24 @@
+1.1) Implementar la clase Nota para cumplir con la siguiente interfaz:
+
+class Nota {
+
+    /* pre : valorInicial  está  comprendido  entre 1 y 10.
+    * post: inicializa  la Nota  con el valor  indicado.*/
+    Nota(int  valorInicial );
+    
+    /* post: devuelve  el  valor  numérico  de la Nota ,*/
+    int  obtenerValor ();
+    
+    /* post: indica  si la Nota  permite o no la  aprobación.*/
+    boolean  aprobado ();
+    
+    /* post: indica  si la Nota  implica  la  desaprobación. */
+    boolean  desaprobado ();
+};
+
+1.2) Agregar a la clase Nota el método:
+/* pre : nuevoValor  está  comprendido  entre 1 y 10.
+* post: modifica  el valor  numérico  de la Nota , cambiándolo
+* por  nuevoValor , si  nuevoValor  es  superior  al
+* valor  numérico  actual  de la Nota.*/
+void  recuperar(int  nuevoValor );
