@@ -1,0 +1,8 @@
+EJERCICIO GUIA TDA | 1.17
+
+Nos solicitan modelar como parte del sistema de RRHH de una empresa, la nómina de los distintos tipos de empleados que trabajan en la empresa 
+y sus características. Los posibles tipos de empleados a considerar son: Director,Jefe de área y Administrativo. (Hay que tener presente que un 
+director es un empleado, pero no a la inversa). Construir una estructura de empleados que permita guardar la siguiente información de cada uno: 
+legajo, nombre y apellido, salario y antigüedad. Debemos proveer métodos quepermitan visualizar las características de cada empleado. 
+Además debemos proveer de un método incrementarSalario() que se ejecutará anualmente y permitirá incrementar el salario de toda la planta de empleados. Para esto
+debe considerarse que a los directores se les incrementará un 10 %, a los jefes un 15 % y a los empleados administrativos un 20 % anual
