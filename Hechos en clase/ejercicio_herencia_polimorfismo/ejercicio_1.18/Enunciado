@@ -1,0 +1,12 @@
+EJERCICIO 1.18 GUÍA TDA | HERENCIA Y POLIMORFISMO
+
+Escribir un main que genere en forma aleatoria un vectorde 100 Empleados, teniendo en cuenta la implementación del punto anterior
+Para eso se debe “sortear” de forma random un número entre 0 y 1, tomando un 10 % para los directores, un 20 % para los jefes y el resto serán
+administrativos. Por ejemplo:
+
+- De 0 a 69 es Administrativo
+- De 70 a 89 es Jefe
+- De 90 a 100 es Director
+
+Además debe sortear un nombre y un apellido de una lista de nombres y apellidos, una antiguedad y un salario entre un rango de 3 salarios:
+uno para directores, otro para jefes y otro para administrativos. Luego, debe listar los datos y los sueldos de cada uno y calcular un promedio.
