@@ -1,0 +1,49 @@
+1)
+ 		Dadas las primitivas de listas vistas en clase, se pide escribir el método de instancia
+ 		void insertarProductos()que inserte entre cada par de elementos de la lista, el producto de tales
+ 		elementos.
+
+ 		Por ejemplo:
+ 		Si la lista es [2,5,4,3], la lista deberíaquedar como [2,10,5,20,4,12,3]
+    
+ 		Si la lista es [3,3,3], la lista deberíaquedar como [3,9,3,9,3].
+    
+  	Si la lista es [], la lista deberíaquedar como []
+
+ 		Si la lista es [4], la lista deberíaquedar como [4]
+
+2)    
+    Dadas las primitivas de listas vistas en clase, decimos que un par de números (a, b) son contiguos
+    divisibles en la lista si a aparece justo antes que b y a es divisible por b.
+    De acuerdo a esta definición, se pide escribir el método de instancia void separarContiguosDivisibles()
+    que por cada par (a, b) de contiguos divisibles de la lista, se agrega entre ellos el número a/b.
+
+    Si la lista es [20, 10, 6, 3], los pares de contiguos divisibles son (20,10) y (6,3), y por lo tanto la
+    lista debería quedar como [20, 2, 10, 6, 2, 3].
+
+    Si la lista es [20, 10, 2, 3], los pares de contiguos divisibles son (20,10) y (10,2), y por lo tanto
+    la lista debería quedar como [20, 2, 10, 5, 2, 3].
+
+    Si la lista es [7, 6, 2, 7, 6], el ́único par de contiguos divisibles es (6,2) con lo cual la lista debería
+    quedar como [7, 6, 3,2, 7, 6]
+
+    Si la lista es [1, 1], el par (1,1) es de contiguos divisibles y por lo tanto la lista debería quedar
+    como [1, 1, 1]
+ 
+    Si la lista es [50, 5], el par (50,5) es de contiguos divisibles y por lo tanto la lista debería quedar
+    como [50, 10, 5]
+    Notar que la nueva lista contiene el par de contiguos consecutivos (10,5), sin embargo,este par no se
+  	separa por no ser parte de la lista original.
+    
+3)
+  
+		Dadas las primitivas de listas vistas en clase se pide escribir el método de instancia
+    Lista* EliminarYRetornarImpares() que elimine de la lista original todos los elementos que se encuentren
+    en posiciones impares y los retorne en una nueva lista manteniendo el orden entre los elementos.
+   	Por ejemplo:
+    
+ 		   Si la lista es [2,5,4,3], la lista deber a quedar como [2,4] y debe devolver [5,3]
+  		 Si la lista es [3,8,3], la lista deber a quedar como [3,3] y debe devolver [8]
+  		 Si la lista es [], la lista deber a quedar como [] y debe devolver []
+  		 Si la lista es [4], la lista deber a quedar como [4] y debe devolver
+ 
