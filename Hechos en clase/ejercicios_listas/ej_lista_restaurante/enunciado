@@ -1,0 +1,47 @@
+Uso de listas 
+Para estos ejercicios se suponen implementados los siguientes métodos de Lista, además de los que figuran en el .h, teniendo en cuenta que hay 
+un atributo más que es actual.
+
+// reinicia el puntero actual a la primera posición (o nulo si la lista es vacía). 
+// PRE: 
+// POS: pone el puntero a la primera posición o apuntando a NULL 
+void reiniciar ( );
+
+
+// consulta si hay un elemento siguiente (si el actual no apunta a NULL) 
+// PRE: 
+// POS: devuelve true si el actual no apunta a NULL, false de lo contrario 
+bool hay_siguiente ( );
+
+
+// devuelve el siguiente elemento (el elemento que apunta actual) 
+// PRE: hay_siguiente tiene que haber devuelto true previamente 
+// POS: devuelve el elemento actual y avanza 
+Dato siguiente ( );
+----------------------------------------------------------------------------------------------------------------
+3) Dada la clase implementada según la interfaz:
+
+class Restaurante { 
+public: 
+// Crea un restaurante con su nombre, el precio promedio por cubierto y 
+// una lista de platos que sirve  
+Restaurante (string nombre, int precio_promedio, Lista<string>* platos); 
+
+string obtener_nombre(); // devuelve el nombre del restaurante 
+
+int obtener_precio_promedio (); // devuelve el precio promedio 
+
+Lista<string>* obtener_platos (); // devuelve ptr a la lista de platos 
+
+}; 
+
+Implementar el método recomendar_restaurantes de la clase Buscador_restaurantes: 
+
+class Buscador_restaurantes {
+public:
+// Post: busca en “restaurantes” aquellos que tienen por lo menos dos platos de la 
+// lista “platos_deseados” y un precio promedio menor o igual a precio_maximo. 
+// Devuelve una lista con los restaurantes que cumplen con estas características. 
+Lista<Restaurante *>* recomendar_restaurantes (Lista<Restaurante *>* restaurantes, Lista<string>* platos_deseados, int precio_maximo);
+
+}; 
